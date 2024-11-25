@@ -4,52 +4,57 @@ import project2 from "../assets/project2.png"
 import project4 from "../assets/project4.png"
 import project5 from "../assets/project5.png"
 import project6 from "../assets/project6.png"
+import dashboard from "../assets/dashboard.png"
+import flutter1 from "../assets/flutter1.png"
+import javascript1 from "../assets/javascript1.png"
+import sertifikat from "../assets/sertifikat.png"
+import uiux from "../assets/uiux.png"
 import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
 const projects = [
     {
-      img: project1,
-      title: "Project #1",
-      description: "UI for frontend development using React.",
+      img: dashboard,
+      title: "Project IoT Monitoring Pendaki",
+      description: "A fullstack application development javascript.",
       links: {
-        site: "#",
-        github: "#",
+        site: "http://sistemiotmonitoringburangrang.great-site.net/",
+        github: "https://github.com/rezapebriawan/",
       },
     },
     {
-      img: project2,
+      img: flutter1,
       title: "Project #2",
-      description: "A fullstack application built with Node.js and MongoDB.",
+      description: "A application built with flutter.",
       links: {
-        site: "#",
-        github: "#",
+        site: "https://flutter-sparepart.vercel.app/",
+        github: "https://github.com/rezapebriawan/Submission-Belajar-Membuat-Aplikasi-Flutter-untuk-Pemula",
       },
     },
     {
-      img: project4,
+      img: javascript1,
       title: "Project #3",
-      description: "An e-commerce platform with various features.",
+      description: "An notepad with javascript.",
       links: {
-        site: "#",
-        github: "#",
+        site: "https://rezapebriawan.github.io/Submission-Belajar-Fundamental-Front-End-Web-Development/",
+        github: "https://github.com/rezapebriawan/Submission-Belajar-Fundamental-Front-End-Web-Development",
       },
     },
     {
-      img: project5,
+      img: uiux,
       title: "Project #4",
-      description: "A mobile-friendly application using React Native.",
+      description: "A ui & ux mobile apps.",
       links: {
-        site: "#",
+        site: "https://drive.google.com/drive/folders/1HRbcVOSK0kdgCrGlC8ZfjE-qbJzJeTpc",
         github: "#",
       },
     },
     {
-      img: project6,
+      img: sertifikat,
       title: "Project #5",
-      description: "A data visualization project using D3.js and other libraries.",
+      description: "A Sertifikat Linux RHCSA EX-200.",
       links: {
-        site: "#",
+        site: "https://www.credly.com/badges/72300a4f-55b5-43e9-9f1f-96a50d9f37c5/linked_in_profile",
         github: "#",
       },
     },
